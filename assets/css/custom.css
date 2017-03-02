@@ -1,0 +1,528 @@
+/* 
+    Created on : 12 7, 16, 06:09:18 PM
+    Author     : Rommel Laranjo
+*/
+/* COLOUR REFERENCES
+Green:      #79b044
+Salmon:     #dd5638
+Blue Gray:  #3e4249
+*/
+
+/* GENERAL */
+
+body {
+    margin-top: 50px;
+    font-family: 'proxima-nova', 'Raleway', Helvetica, sans-serif;
+    font-size: 16px;
+    background: url('../img/tile.jpg') top left repeat;
+    position: relative;
+}
+
+/* GLOBAL */
+h1, h2, h3, h4, h5, h6 {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h1, h2 {
+    margin: 0 0 40px;
+}
+
+h3 {
+    margin: 20px 0;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+p {
+    margin: 0 0 15px;
+}
+
+p.lead {
+    font-weight: normal;
+}
+
+a:link, a:visited {
+    color: #dd5638;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #c9302c;
+}
+
+button, input, .btn, a.btn {
+    -webkit-font-smoothing: antialised;
+    text-rendering: optimizelegibility;
+    color: white;
+}
+
+.btn {
+    font-weight: bold;
+}
+
+.btn-danger {
+    background-color: #dd5638;
+    border-color: #d95131;
+}
+
+.btn-success {
+    background: #79b044;
+    border: none;
+}
+
+.btn-success:hover {
+    background: #6a9b3d;
+    border-color: #6a9b3d;
+}
+
+img {
+    max-width: 100%;
+}
+
+.navbar {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.navbar-brand {
+    padding: 0px;
+}
+
+section {
+    padding: 80px 0;
+}
+
+.section-header {
+    text-align: center;
+}
+
+/* HERO */
+#hero {
+    background: url('../img/hero-bg-wide.png') 50% 0 repeat fixed;
+    min-height: 550px;
+    padding: 30px 0;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;
+}
+
+#hero article {
+    width: 100%;
+    text-align: center;
+}
+
+#hero .hero-text {
+    margin-top: 120px;
+}
+
+/* SERVICES */
+
+#services {
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility; 
+}
+
+.service {
+    width: 45%;
+    min-height: 260px;
+    float: left;
+    margin: 0 5% 40px 0;
+}
+
+.service:nth-child(2n) {
+    margin-right: 0;
+}
+
+.service-image {
+    width: 25%;
+    float: left;
+    margin: 0 5% 0 0;
+}
+
+.service img {
+    width: 25%;
+    text-align: center;
+}
+
+.service-description {
+    width: 70%;
+    float: left;
+}
+
+/* FEATURED PROJECTS */
+#featured-projects {
+    background: #3e4249;
+    color: white;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility; 
+}
+
+.project {
+    margin-bottom: 60px;
+}
+
+blockquote {
+    padding: 0;
+    border: none;
+    font-style: italic;
+    text-align: left;
+}
+
+blockquote cite {
+    display: block;
+    color: #999;
+    margin: 15px 0 0 0;
+}
+
+blockquote:before {
+    display: none;
+}
+
+/* ABOUT ME SECTION */
+
+#about {
+    background: url('../img/renzo-face.png') 100% 0 no-repeat;
+    
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizelegibility;    
+}
+
+h3.skills-header {
+    margin: 0px 0px 20px 0px;
+}
+
+.about-me {
+    margin-bottom: 20px;
+}
+
+/* CONTACT SECTION */
+#contact {
+    background: #3e4249;
+    color: white;
+}
+
+/* CONTACT DETAILS SECTION */
+#contact-details {
+    background: #3e4249;
+    color: white;
+    line-height: 20px;
+    text-align: center;
+    padding-top: 0px;
+}
+
+.contact-detail {
+    padding-bottom: 10px;
+}
+
+.contact-detail a:link, .contact-detail a:visited {
+    color: white;
+}
+
+.contact-detail a:hover {
+    color: #dd5638;
+}
+
+.detail-address img, 
+.detail-email img, 
+.detail-number img {
+    padding-bottom: 10px;
+}
+
+.detail-social {
+    padding-bottom: 10px;
+}
+
+.badge.social {
+    background: #ccc;
+    font-size: 24px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    line-height: 42px;
+    margin: 0 5px 20px 0;
+    padding: 0;
+    -webkit-border-radius: 50px;
+    -moz-border-radius:  50px;
+    border-radius: 50px;
+    color: white;        
+}
+
+.badge.social.twitter:hover {
+    background: #55acee;
+}
+
+.badge.social.facebook:hover {
+    background: #3b5998;
+}
+
+.badge.social.gplus:hover {
+    background: #db4b39;
+}
+
+.badge.social.linkedin:hover {
+    background: #5bc0de;
+}
+
+#primary {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+/* FOOTER SECTION */
+footer {
+    background: #222;
+    color: white;
+    padding: 20px 0 10px;
+    font-size: 12px;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a:link, footer a:visited {
+    color: white;
+}
+
+footer a:hover {
+    color: #dd5638;
+}
+
+footer li.signup-link a {
+    color: #dd5638;
+}
+
+footer li.signup-link a:hover {
+    font-weight: bold;
+}
+
+/* TESTIMONIAL SECTION */
+#testimonials {
+    text-align: center;
+}
+
+.testimonial {
+    margin-bottom: 60px;
+}
+
+.testimonial img {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}
+
+
+/* FOR ALL FEATURE IMAGE CLASS */
+.feature-image {
+    display: table;
+    width: 100%;
+}
+
+.feature-image h1 {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+}
+
+.feature-image-default-alt {
+    background: url('../img/pen-and-paper.jpg') no-repeat;
+    background-size: cover;
+}
+
+/* BLOG */
+.post, .widget, #comments {
+    position: relative;
+    border: solid 1px #ddd;
+    background: white;
+    margin: 0 0 40px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.post header,
+.post .post-excerpt,
+.post .post-body,
+#comments .comments-wrap {
+    padding: 20px;
+}
+
+.post header h1,
+.post header h3 {
+    margin: 0 0 15px;
+    padding: 0 0 15px;
+    border-bottom: solid 1px #ddd;
+}
+
+.post header h1 {
+    font-size: 24px;
+}
+
+.post-image {
+    height: auto;
+}
+
+.post-details {
+    font-size: 12px;
+    width: 90%;
+}
+
+.post-details i.fa {
+    padding-left: 10px;
+}
+
+.post-details i.fa:first-child {
+    padding: 0;
+}
+
+/* COMMENTS */
+
+.post-comments-badge {
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    top: 25px;
+    right: 20px;
+    border: none;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    background: #79b044;
+    text-align: center;
+    display: table;
+}
+
+.post-comments-badge a {
+    display: table-cell;
+    vertical-align: middle;
+    color: white;
+    font-size: 20px;
+    line-height: 20px;
+}
+
+.post-comments-badge i.fa {
+    display: block;
+    font-size: 15px;
+    padding: 0;
+    margin-bottom: 4px;
+}
+
+.post-comments-badge:hover {
+    background-color: #8bc653;
+}
+
+#comments h3 {
+    text-align: center;
+}
+
+#comments h4 {
+    font-size: 1.3em;
+}
+
+#comments ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#comments ol li {
+    background: rgba(0,0,0,0.02);
+    padding: 10px 20px;
+    margin: 10px 0;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: solid 1px rgba(0,0,0,0.03);
+}
+
+#comments ol li ol.children {
+    padding: 0;
+    list-style: none;
+    font-size: 0.96em;
+}
+
+#leave-comment {
+    margin: 40px 0 0;
+    padding: 20px 0 0;
+    border-top: solid 1px #eee;
+}
+
+/* WIDGETS */
+
+.widget {
+    padding: 20px;
+}
+
+.widget h4 {
+    margin: 0 0 10px;
+    padding: 0 0 10px;
+    border-bottom: solid 1px #ddd;
+}
+
+.widget ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.widget ul li {
+    margin: 0 0 5px;
+}
+
+.widget ul li:hover {
+    position: relative;
+    left: 1px;
+}
+
+/* OTHER SCREEN SIZES */
+
+@media screen and (max-width: 782px) {   
+    .service {
+        width: 100%;
+        margin-right: 0;
+        min-height: 100px;
+    }
+    .service img {
+        width: 128px;
+    }
+    
+}
+
+@media screen and (max-width : 991px) {
+    #about .container-fluid {
+        background: rgba(255, 255, 255, 0.8);
+        padding: 20px;
+    }
+    
+    .hero-text h1 {
+        font-size: 25px;
+    }
+    
+    .hero-text h2 {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width : 960px) {
+    #about .about-me {
+        font-size: 15px;
+    }
+    
+    #about .about-me-skills {
+        font-size: 15px;
+    }
+}
+
+
